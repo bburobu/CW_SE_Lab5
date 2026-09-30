@@ -1,0 +1,41 @@
+Tell me the file name (or the path to the file) here: test.txt
+----Matrix A----
+     1     2     3
+     4     5     6
+     7     8     9
+----Matrix B----
+     9     8     7
+     6     5     4
+     3     2     1
+----Matrix A+B----
+    10    10    10
+    10    10    10
+    10    10    10
+----Matrix A*B----
+    30    24    18
+    84    69    54
+   138   114    90
+Diagonal Sum
+        30
+Diagonal Sum 2
+        30
+----Swap Rows: A = row 1, B = row 3: A----
+     3     2     1
+     4     5     6
+     7     8     9
+----Swap Rows: A = row 1, B = row 3: B----
+     9     8     7
+     6     5     4
+     1     2     3
+----Swap Columns: A = row 3, B = row 2: A----
+     1     2     8
+     4     5     5
+     7     8     2
+----Swap Columns: A = row 3, B = row 2: B----
+     9     3     7
+     6     6     4
+     3     9     1
+----Updated Matrix B item at row 2, column 1 to 104----
+     9     8     7
+   104     5     4
+     3     2     1
